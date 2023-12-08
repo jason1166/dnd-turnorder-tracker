@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js" defer></script>
+    <title>Turn Order Tracker</title>
+</head>
+<body>
+    <div class="container">
+        <div id="title"><h1>Turn Order Tracker</h1></div>
+        <div id="user-input">
+            <!-- <label id="input-label">Enter New Character:</label> -->
+            <!-- <input type="text" name="player" id="playerInput"> -->
+            <form autocomplete="off">
+                <input type="text" id="playerInput" name="playerInput" required/>
+                <input id="addChar" type="submit" value="Add Character"/>
+            </form>
+            <!-- <button id="addChar">Add character</button> -->
+            <button id="newTurnBtn">New Turn</button>
+            <button id="deleteAll">Delete All</button>
+        </div>
+        <div>
+            <ul></ul>
+        </div>
+        <div id="team-presets">
+            <button id="team-1">Team 1</button>
+            <button id="team-2">Team 2</button>
+        </div>
+    </div>
+    
+</body>
+</html>

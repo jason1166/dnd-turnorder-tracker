@@ -1,0 +1,68 @@
+html {
+    background-color: lightblue;
+}
+
+.turn-done {
+    text-decoration: line-through;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+#user-input {
+    display: flex;
+}
+
+button {
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 12px 28px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+li {
+    margin: 10px;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#addChar {
+    background-color: cornflowerblue;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 12px 28px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+#newTurnBtn {
+    background-color: teal;
+}
+
+#deleteAll {
+    background-color: lightcoral;
+}
+
+#delBtn {
+    background-color: lightcoral;
+}
+
+#doneBtn {
+    background-color: teal;
+}
+
+#team-1 {
+    background-color: steelblue;
+}
+
+#team-2 {
+    background-color: cadetblue;
+}
