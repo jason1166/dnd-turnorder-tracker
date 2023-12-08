@@ -2,6 +2,10 @@ html {
     background-color: lightblue;
 }
 
+/* div {
+    border: 2px solid black;
+} */
+
 .turn-done {
     text-decoration: line-through;
 }
@@ -27,6 +31,8 @@ li {
     margin: 10px;
     font-size: 25px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    align-items: center;
 }
 
 input {
@@ -65,4 +71,19 @@ input {
 
 #team-2 {
     background-color: cadetblue;
+}
+
+/* experimental */
+.SPstat {
+    margin: 10px;
+    background-color: lightgreen;
+    padding: 0 20px;
+    border-radius: 80%;
+}
+
+.HPstat {
+    margin: 10px;
+    background-color: lightskyblue;
+    padding: 0 20px;
+    border-radius: 80%;
 }
